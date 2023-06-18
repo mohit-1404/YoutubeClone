@@ -1,0 +1,101 @@
+.categories {
+  height: 100vh;
+  overflow-y: scroll;
+  position: sticky;
+  top: 0;
+}
+.categories ul {
+  overflow-x: auto;
+  list-style: none;
+}
+
+.categories ul li {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.categories ul li:hover {
+  background-color: red;
+}
+.categories ul li.active {
+  background-color: red;
+}
+
+.categories ul li:hover .icon {
+  color: white !important;
+}
+.categories ul li.active .icon {
+  color: white !important;
+}
+
+.icon {
+  font-size: 30px !important;
+  margin: 10px;
+}
+
+.categories-scrollbar::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+.categories-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 0.25em;
+}
+
+.categories::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+.heading{
+  text-transform:capitalize;
+}
+
+.loader {
+  border: 16px solid rgb(17, 17, 17);
+  border-top: 16px solid red;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+  margin-top: 15%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 865px) {
+  .categories {
+    height: 20vh !important;
+    text-align: center;
+  }
+  .categories ul{
+    display: flex;
+  }
+  .text{
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px !important;
+  }
+  ul{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .icon {
+    font-size: 30px !important;
+  }
+  .categories ul li {
+    font-size: 15px !important;
+  }
+}

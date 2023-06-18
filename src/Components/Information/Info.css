@@ -1,0 +1,20 @@
+.bg-container {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0,3,36,1) 10%, rgba(121,9,56,1) 50%, rgba(255,201,0,1) 100%) !important;
+}
+.logo-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-top: -90px;
+}
+.text-info{
+    font-weight: 400;
+    font-size: 1.2rem;
+}

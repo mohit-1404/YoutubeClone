@@ -1,0 +1,8 @@
+@media(max-width:737px){
+    .card-info{
+        width: auto !important;
+    }
+}
+.link-text{
+    text-decoration: none;
+}
