@@ -1,6 +1,6 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is hosted on : Netlify
+To run on the local machine run [Netlify Link](youtube-clone-mohit2003.netlify.app).
 
 ## Available Scripts
 
