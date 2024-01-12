@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 This project is hosted on : Netlify
 
-To run on the local machine run [Netlify Link][https://youtube-clone-mohit2003.netlify.app].
+To run on the local machine run [Netlify Link] https://youtube-clone-mohit2003.netlify.app.
 
 ## Available Scripts
 
